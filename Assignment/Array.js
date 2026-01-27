@@ -13,3 +13,13 @@ function even(){
 even() 
 
 // filter 
+
+let arraynew = [1,2,3,4,5,6,7]
+
+let even = arraynew.filter(num =>  num % 2 === 0)
+let odd = arraynew.filter(num =>  num % 2 !== 0)
+
+
+console.log("Even:", even)
+console.log("Odd:", odd)
+

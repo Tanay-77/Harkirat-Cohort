@@ -23,3 +23,24 @@ let odd = arraynew.filter(num =>  num % 2 !== 0)
 console.log("Even:", even)
 console.log("Odd:", odd)
 
+// sum of n number
+
+function sum(n){
+    let ans = 0
+    for(let i = 0 ; i<n.length ; i++){
+       ans += i
+    }
+  return ans 
+}
+
+sum(10)
+
+function sum (n){
+    let ans = 0
+    for(let i = 0 ; i <n.length ; i++){
+        ans+= i
+    }
+    return ans
+}
+
+sum(10)

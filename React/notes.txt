@@ -1,0 +1,4 @@
+State - an object that represent current state of the app 
+        it represents the dynamic
+
+https://www.canva.com/design/DAGStTo7_1Y/H-uoNlkdJ2X4P3LbOME45Q/edit

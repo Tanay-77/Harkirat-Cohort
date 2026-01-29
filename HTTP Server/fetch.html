@@ -9,10 +9,16 @@
     <div id="post"></div>
     <script>
     async function getResponse() {
-     const response = await fetch('here we will put any link from where we will fetch the data')
+     const response = await fetch('here we will put any link from where we will fetch the data',
+        // we need to describe method here for fetch
+     )
+     // or we can use axios insted of fetch 
+     // const response = await axios.get('here we will put any link from where we will fetch the data')
+     // we just need to write only one line of code using axios 
+     //  document.getElementById('post').innerHTML=response
      const data = await response.json()
      console.log(data)
-     document.getElementById('post').innerHTML=data
+     document.getElementById('post').innerHTML=JSON.stringify(data)
     }
     </script>
 </body>

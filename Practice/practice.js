@@ -17,3 +17,10 @@ function argu(a,b,op){
 }
 
 argu(1,2,sum)
+
+
+function tan(a,b,op){
+   return op(a,b)
+}
+
+tan(1,2,sum)

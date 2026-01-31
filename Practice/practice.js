@@ -24,3 +24,40 @@ function tan(a,b,op){
 }
 
 tan(1,2,sum)
+
+
+function print(err,data){
+  console.log(data)}
+
+
+fs.readFile("t.txt","utf8",print)
+
+
+
+function prin(err , data){
+  console.log(data)
+}
+
+fs.readFile("t.txt","utf",prin)
+
+
+console.log("hi everyone ")
+
+function tan(){
+  console.log("tanay")
+}
+
+setTimeout(tan,1000)
+
+let c =0 
+for(let i = 0 ;  i<10 ; i++){
+  c += i 
+}
+
+console.log(c)
+
+function tan(err , data){
+  console.log(data)
+}
+
+fs.readFile()

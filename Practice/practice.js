@@ -82,8 +82,19 @@ let p = new Promise(random)
 function callback(){
   console.log("tanay")
 }
-
 p.then(callback)
+
+function fun(resolve){
+      resolve()
+}
+
+let pp = new Promise(fun)
+
+function console(){
+  console.log("uday")
+}
+
+pp.then(callback)
 
 // simple fs. read file using promisified
 

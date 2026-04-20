@@ -84,17 +84,19 @@ function callback(){
 }
 p.then(callback)
 
-function fun(resolve){
-      resolve()
+// advanced way to write promisifid settimeout clss
+
+function setTimeoutpromisified(duratiion){
+  return new Promise((resolve)=>{
+          setTimeout(resolve,duratiion)
+  })
 }
 
-let pp = new Promise(fun)
-
-function console(){
-  console.log("uday")
+function callback(){
+  console.log("tanay")
 }
 
-pp.then(callback)
+setTimeoutpromisified(3000).then(callback)
 
 // simple fs. read file using promisified
 
@@ -154,3 +156,35 @@ function callback(){
 }
 
 paa.then(callback)
+
+
+
+function tan(resolve){
+  setTimeout(resolve,3000)
+}
+
+let ppp = new Promise(tan)
+
+function con(){
+  console.log("uday")
+}
+
+ppp.then(con)
+
+// 
+function setTimeoutpromisified(duration){
+    return new Promise((resolve)=>{
+      setTimeout(resolve,duration)
+    })}
+
+function callback(){
+  console.log("yoo")
+}
+
+setTimeoutpromisified(3000).then(callback) 
+
+
+function setTimeoutpromisified(time){
+  return new promise()
+
+}

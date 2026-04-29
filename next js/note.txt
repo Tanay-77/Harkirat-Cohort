@@ -1,0 +1,16 @@
+//*** why react is not seo optimized 
+
+The core problem: Client-Side Rendering (CSR)
+
+In a typical React app (like one created with Create React App):
+
+The server sends almost empty HTML
+Then JavaScript loads
+React builds the UI in the browser
+
+👉 So when a search engine bot like Googlebot(crawler) visits:
+
+It may see very little content initially
+It has to wait and execute JS to see the full page
+
+That’s the main reason people say React is “not SEO friendly.”
